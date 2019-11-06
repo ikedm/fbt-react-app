@@ -1,6 +1,9 @@
+import fbt, {init} from 'fbt';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+init({translations: require('./translatedFbts.json')});
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <fbt desc="Text desc">Learn React</fbt>
         </a>
       </header>
     </div>

@@ -1,0 +1,19 @@
+{
+ "phrases": [
+  {
+   "hashToText": {
+    "gBUedd/JgwtlZ3Wd30zHig==": "Learn React"
+   },
+   "filepath": "src/App.js",
+   "line_beg": 22,
+   "col_beg": 10,
+   "line_end": 22,
+   "col_end": 49,
+   "type": "text",
+   "desc": "Text desc",
+   "project": "",
+   "jsfbt": "Learn React"
+  }
+ ],
+ "childParentMappings": {}
+}
