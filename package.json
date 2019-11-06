@@ -145,6 +145,10 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      ["babel-plugin-fbt", {"fbtEnumManPath": "../.enum_manifest.json"}],
+      "babel-plugin-fbt-runtime"
     ]
   }
 }
